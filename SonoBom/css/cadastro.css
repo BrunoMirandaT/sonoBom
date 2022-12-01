@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Englebert&family=Hind+Vadodara:wght@300&display=swap');
+body{
+    background-image: url(../img/aaaaaaaaaaaaaaaaaaaa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+#wow{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+#tits{
+    border-radius: 16px;
+    width: 450px;
+    border: solid black 2px;
+    height: 30px;
+    font-family: 'Hind Vadodara', sans-serif;
+    text-indent: 10px;
+}
+
+.title2{
+    font-family: 'Englebert', sans-serif;
+    font-size: 72px;
+    text-shadow: #A5D0D5 5px 5px 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.odeiotessilla{
+    background-color: white;
+    position: relative;
+    height: 90px;
+    border: 0px;
+    width: 90px;
+    border-radius: 400px;     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.1s;
+    cursor: pointer;
+    top: -20px;
+}
+
+.odeiotessilla:hover{
+    border: 3px solid #A5D0D5;
+}
+
+.colchoes {
+    height: 268px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.colchoes > div { /* espaçamento */
+    margin: 30px;
+    min-width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    border: 5px solid #A5D0D5;
+    text-align: center;
+    font-family: 'Hind Vadodara', sans-serif;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.colchoes > div:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+.colchao1{
+    background-image: url(/img/colchao.png);
+    background-size:contain;
+    background-position: 0px -20px;
+    font-size: 28px ;
+}
+
+.texto1{
+    margin-top: 170px;
+    font-size: 18px;
+}
+
+.preco1{
+    margin-top: 200px;
+    font-size: 28px;
+}
